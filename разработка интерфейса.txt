@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html> <head>
+<title>Заголовок страницы</title>
+<style> 
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+ad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+acx {
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  padding: 2rem;
+  background: violet;
+  border: 5px solid black;
+  color: tomato;
+  margin: 2px;
+}
+h2{ font-size: 1px; top: 0px; padding: 1px; 
+} 
+@keyframes bounce{
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+	40%{
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80%{
+		transform: translateY(-10px);	
+		transform: translateY(-10px);
+	}
+}
+button:hover {
+	animation: bounce 2s;
+}
+
+a:hover {
+	border: 1px dotted #3a7999;
+	color: #3a7999
+	background: rgb(22,250,50);
+}
+ad:hover {
+  box-shadow:
+    1px 1px #ff0000,
+    2px 2px #ff0000,
+    3px 3px #ff0000,
+    4px 4px #ff0000,
+    5px 5px #ff0000,
+    6px 6px #ff0000,
+    7px 7px #ff0000;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+
+threed{
+  margin:0;
+  color: #fff;
+  text-align:center;
+  font: bold 25px Georgia, Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 0 #cccccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #b9b9b9,
+  0 4px 0 #cccccc,
+  0 5px 0 #aaaaaa,
+  0 6px 1px rgba(0, 0, 0, 0.1),
+  0 0 5px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.3),
+  0 3px 5px rgba(0, 0, 0, 0.2),
+  0 5px 10px rgba(0, 0, 0, 0.25),
+  0 10px 20px rgba(0, 0, 0, 0.2), 
+  0 20px 20px rgba(0, 0, 0, 0.15);
+}
+das{
+  flex-direction: row;
+}
+
+</style>
+</head> 
+<body bgcolor="white">
+
+<h2><img src = "vk2.jpg"widht="50"height="50"> <font size="5" color="black">ВКонтакте</font></h2> 
+<hr color ="black" size ="1"> <table border="1" align="right">
+<div class="flex-container">
+  <div style="flex-grow: 1"><threed>Поиск</threed></div>
+  <div style="flex-grow: 1"><threed>Фото</threed></div>
+  <div style="flex-grow: 8"><threed>Архив историй</threed></div>
+</div>
+<tr> 
+<th><threed><ad><acx> <font size="10" color="black" >Моя страница</font></ad></threed></acx></th>
+<tr>
+<td><threed><ad><font size="10" color="black" >Новости</font></ad></threed></td>
+<tr> 
+<td><threed><ad><font size="10" color="black" >Сообщения</font></ad></threed></td>
+<tr>
+<td><threed><ad><font size="10" color="black" >Друзья</font></ad></threed></td> 
+<tr>
+<td><threed><ad><font size="10" color="black" >Фотографии</font></ad></threed></td>
+<tr> 
+<td><threed><ad><font size="10" color="black" >Группы</font></ad></threed></td>
+<tr>
+<td><threed><ad><font size="10" color="black" >Музыка</font></ad></threed></td>
+<tr> 
+<td><threed><ad><font size="10" color="black" >Видео</font></ad></threed></td> 
+<tr> 
+<td><threed><ad><font size="10" color="black" >Игры</font></threed></ad></td> 
+</tr>
+</table>
+<img src ="jd.jpg"widht="300"height="300">
+<br> 
+<button><threed><font size="25" color="black" >Олег Петров</font></threed></button>
+</body> 
+</html>
