@@ -1,0 +1,594 @@
+@font-face {
+  font-family: "Jost";
+  src:url("../font/Jost-SemiBold.woff2") format("woff2");
+}
+
+body {
+    margin: 0px;
+  font-family: Jost; 
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction:row;
+    font-size: 18px;
+
+}
+.head{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 170px;
+    gap: 400px;
+
+}
+.hedinf{
+    display: flex;
+    flex-direction:row;
+    margin-left: 70px;
+    gap: 70px;
+    align-items: center;
+}
+.buy{
+    background: black;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy:hover{
+    background: yellow;
+    cursor: pointer;
+     transition: background-color 0.5s, height 2s;
+}
+.hedphoto{
+    margin-top: 30px;
+}
+.alhedcd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.maina1{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+.mainssqq{
+    display: flex;
+    flex-direction: column;
+    font-size: 150px;
+    margin-left: 170px;
+    gap: 20px;
+}
+.drink{
+    font-size: 30px;
+}
+.downmain{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.dowapp{
+    background: black;
+    color: white;
+    border-radius: 20px;
+    height: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.dowapp:hover{
+    background: yellow;
+    cursor: pointer;
+     transition: background-color 0.5s, height 2s;
+}
+.libe{
+    background: black;
+    height: 1px;
+    width: 150px;
+}
+.cof{
+    display: flex;
+    flex-direction: column;
+}
+.cofoehpi{
+    background:url("../img/coffe.png") 100%  no-repeat;
+    height: 712px;
+    width: 680px;
+}
+.almainpho{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.cafe{
+    margin-left: 500px;
+}
+.starblock{
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    background: white;
+    color: #64646A;
+    width: 270px;
+    height: 150px;
+    margin-top: 300px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.maina2{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.explore{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    gap: 20px;
+}
+.exptrex{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+}
+.eatinf{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.boxeat{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    font-size: 60px;
+    gap: 10px;
+    margin-left: 120px;
+
+}
+.eattext{
+    color: #64646A;
+    font-size: 35px;
+}
+.eatphioto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.orderbox{
+    display: flex;
+    background: black;
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.orderbox:hover{
+    background: yellow;
+    cursor: pointer;
+     transition: background-color 0.5s, height 2s;
+}
+.maina3{
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.cofal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    gap: 40px;
+}
+
+.ordernow{
+    border-radius: 20px;
+    background: black;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.ordernow:hover{
+    background: yellow;
+    cursor: pointer;
+     transition: background-color 0.5s, height 2s;
+}
+.cof{
+    font-size: 70px;
+}
+.cofphotos{
+    margin-left: 250px;
+}
+.maina4{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    align-items: center;
+    margin-top: 120px;
+}
+.mark{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    gap: 20px;
+}
+.starmark{
+        margin-bottom: 30px;
+     display: flex;
+    flex-direction: column;
+}
+.base{
+    font-size: 20px;
+}
+.peopbox{
+    display: flex;
+    flex-direction: row;
+    height:600px;
+    width: 100%;
+    margin-top: 80px;
+    font-size: 25px;
+    gap: 60px;
+}
+.blackbox{
+
+    height:600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.peopinf{
+    display: flex;
+    flex-direction: column;
+}
+.starinf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 30px;
+    margin-right: 110px;
+    margin-top: 30px;
+}
+.alstar{
+    display: flex;
+    flex-direction: row;
+}
+.almet{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.azbox{
+    height:600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.starinfs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+    gap: 30px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.maina5{
+
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #64646A;
+    gap: 450px;
+    margin-top: 220px;
+}
+.wemade{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+
+}
+.store{
+    color: black;
+    font-size: 40px;
+}
+.find{
+    color: black;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+.allow{
+    margin-bottom: 15px;
+}
+input{
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.subbuox{
+    background: black;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+}
+.subbuox:hover{
+    background: yellow;
+    cursor: pointer;
+     transition: background-color 0.5s, height 2s;
+}
+.wemadeasdcsa{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.storeasc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.usw{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 500px;
+    color: #64646A;
+    font-size: 30px;
+    height: 100px;
+    margin-left: 200px;
+}
+.allcw{
+    background: red;
+    height: 200px;
+    width: 600px;
+}
+ .swiper{
+      width: 100%;
+      height: 900px;
+    }
+    .swiper-slide{
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+      right: 140px !important; 
+      left: auto;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+      left: 140px !important; 
+      right: auto;
+    }
+@media all and (max-width: 1888px) {
+
+
+    .head{
+        margin-left: 70px;
+
+    }
+    .mainssqq{
+        margin-left: 70px;
+    }
+    .boxeat{
+        margin-left: 70px;
+
+}
+    .explore{ 
+        margin-right: 300px;
+
+}
+    .cofphotos{
+        margin-left: 70px;
+}
+    .wemade{
+        margin-left: 70px;
+}
+    .swiper-slide{
+
+    
+    }
+    footer{
+        margin-left: 70px;
+    }
+  }
+
+@media all and (max-width: 1600px) {
+   
+
+    .head{
+        margin-left: 50px;
+
+    }
+    .mainssqq{
+        margin-left: 50px;
+    }
+    .boxeat{
+        margin-left: 50px;
+
+}
+    .explore{ 
+        margin-right: 100px;
+
+}
+    .cofphotos{
+        margin-left: 50px;
+}
+    .wemade{
+        margin-left: 50px;
+}
+    .swiper-slide{
+
+    
+    }
+    footer{
+        margin-left: 50px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+      right: 70px !important; 
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+      left: 70px !important; 
+    }
+    .cofoehpi{
+    height: 712px;
+    width: 600px;
+}
+    .cafe{
+    margin-left: 400px;
+}
+  }
+@media all and (max-width: 1450px) {
+  
+    .head{
+        margin-left: 10px;
+
+    }
+    .mainssqq{
+        margin-left: 10px;
+    }
+    .boxeat{
+        margin-left: 10px;
+
+}
+    .explore{ 
+        margin-right: 100px;
+
+}
+    .cofphotos{
+        margin-left: 10px;
+}
+    .wemade{
+        margin-left: 10px;
+}
+    .swiper-slide{
+
+    
+    }
+    footer{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+      right: 70px !important; 
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+      left: 70px !important; 
+    }
+    .cofoehpi{
+    height: 712px;
+    width: 600px;
+}
+    .cafe{
+    margin-left: 400px;
+}
+    .cofal{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 20px;
+        gap: 40px;
+}
+    .cof{
+        font-size: 40px;
+}
+    .store{
+        color: black;
+        font-size: 30px;
+}
+    .maina5{
+    font-size: 20px;
+
+}
+    .maina4{
+        font-size: 30px;
+    }
+    .mainssqq{
+        font-size: 100px;
+    }
+    .explore{
+    
+    font-size: 30px;
+}
+.exptrex{
+
+    font-size: 20px;
+
+}
+.boxeat{
+
+    font-size: 40px;
+
+}
+.eattext{
+    font-size: 25px;
+}
+  }
+
