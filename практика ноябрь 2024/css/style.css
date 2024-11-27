@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+
+}
+  .d1 input { 
+    margin-left: 40px;
+    width: 150px;
+    height: 42px;
+    padding-left: 10px;
+    border: 3px solid #8aab7b;
+    border-radius: 5px;
+    outline: none;
+    color: #9E9C9C;
+  }
+  .d1 button {
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #8aab7b;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .d1 button:before {
+    content: "\2";
+    font-size: 16px;
+    color: #F9F0DA;
+  }
+  .d1 input:focus {
+    width: 170px;
+  }
+  .hedout{
+    border: 1px solid #8aab7b;
+  }
+  main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .info{
+    align-items: center;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 305px;
+
+  }
+  .namepho{
+    display: flex;
+    flex-direction: column;
+    color: #8aab7b;
+    margin-left: 10px;
+  }
+  .favoritedel{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .shadow-icon{
+    position: absolute;
+    top: 580px;
+    left: 300px;
+    font-size: xx-large;
+    border-radius:50% ;
+    box-shadow: 0px 5px 10px rgba(224, 0, 0, 0.973);
+  }
+  #add-note-icon{
+    font-size: xx-large;
+    font-size: 50px;
+    text-decoration: none;
+    color: #8aab7b;
+  }
+  .adcontact{
+    color: #8aab7b;
+    font-size: 30px;
+    margin-left: 25px;
+  }
+  .regmain{
+    display: flex;
+    flex-direction: column;
+  }
+  .regmain input{
+    margin-left: 50px;
+    margin-top: 60px;
+    height: 40px;
+    width:  250px;
+    border-radius: 5px ;
+    border: 2px solid #8aab7b;
+  }
+  .gal input{
+    height: 20px;
+    width:  25px;
+  }
+  footer{
+    margin-top: 200px;
+
+  }
+  footer button{
+    text-decoration: none;
+    height: 79px;
+    width: 375px;
+    border: solid 1px #8aab7b;
+  }
+  footer a{
+    text-decoration: none;
+    color: grey;
+    font-size: 40px;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <header>
+        <img src="img/phone1.png" width="50px" height="50px">
+        <span class="adcontact">Add contact</span>
+    </header>
+<main>
+    <div class="regmain">
+        <div class="hedout"></div>
+        <form>
+            <input type="text" id="name" placeholder="Name" onechange="saveNote()">
+        </form>
+        <form>
+            <input type="text" id="name" placeholder="Number" onechange="saveNote()">
+        </form>
+        <div class="gal">
+            <input type="checkbox">
+            <span>Favorites</span>
+        </div>
+    </div>
+</main>
+<footer>
+    <button><a onclick="backIconClick()">Create</a></button>
+</footer>
+<script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
